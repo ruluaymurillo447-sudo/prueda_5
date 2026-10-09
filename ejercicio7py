@@ -1,0 +1,7 @@
+#calcular la edad a partir del año de nacimiento
+añoActual = int(input("Ingrese el año actual: "))
+añoNacimiento = int(input("Ingrese el año de nacimiento: "))
+
+edad = añoActual - añoNacimiento
+
+print("La edad es:", edad)
